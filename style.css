@@ -1,0 +1,38 @@
+.hero {
+    background-color: #1F2937;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 12px;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.description {
+    color: #E5E7EB;
+}
