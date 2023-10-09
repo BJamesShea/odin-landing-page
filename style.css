@@ -3,13 +3,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
-
 
 ul {
     list-style-type: none;
@@ -17,7 +15,6 @@ ul {
     gap: 12px;
     font-size: 18px;
     color: #E5E7EB;
-    
 }
 
 .header-logo {
@@ -34,25 +31,25 @@ h1 {
 .description {
     color: #E5E7EB;
     display: flex;
-    justify-content: flex-start;
     margin: 48px;
 }
 
-
 .placeholder-picture {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     padding-top: 24px;
+   
 }
 
 button {
     background-color: #3882F6;
     color:#E5E7EB;
     width: 100px;
-    height: 30px;
+    height: 35px;
     border-radius: 8px;
     border-color:#3882F6;
     margin: 24px;
 }
 
+.main-text {
+    display: flex;
+    flex-direction: column;
+}
